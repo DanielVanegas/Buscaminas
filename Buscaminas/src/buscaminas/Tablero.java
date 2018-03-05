@@ -1,11 +1,14 @@
 package buscaminas;
 
+import java.util.Random;
+
 public class Tablero {
 
     private Celda misCeldas[][];
     private Cronometro miCronometro;
     private Contador miCounter;
     private Emoji miEmoji;
+    Random rnd = new Random();
 
     public Tablero(int ancho, int largo) {
 
@@ -17,6 +20,7 @@ public class Tablero {
         for (fila = 0; fila < largo; fila++) {
             for (columna = 0; columna < ancho; columna++) {
                 misCeldas[fila][columna] = new Celda();
+                misCeldas= (int) (Math.random());
             }
 
         }
