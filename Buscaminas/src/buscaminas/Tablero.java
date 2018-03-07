@@ -8,7 +8,7 @@ public class Tablero {
     private Cronometro miCronometro;
     private Contador miCounter;
     private Emoji miEmoji;
-    Random rnd = new Random();
+    Random llenado = new Random();
 
     public Tablero(int ancho, int largo) {
 
@@ -20,7 +20,7 @@ public class Tablero {
         for (fila = 0; fila < largo; fila++) {
             for (columna = 0; columna < ancho; columna++) {
                 misCeldas[fila][columna] = new Celda();
-                misCeldas= (int) (Math.random());
+
             }
 
         }
