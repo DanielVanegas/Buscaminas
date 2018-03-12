@@ -9,14 +9,8 @@ public class Principal {
         Rectangulo miRectangulo = new Rectangulo();
         Triangulo miTriangulo = new Triangulo();
         Cuadrado miCuadrado = new Cuadrado();
- 
-        
-        
-        
- 
-        System.out.println(miRectangulo.calculararea());
-        
-        
+   
+        System.out.println(miRectangulo.calculararea());      
         System.out.println(miTriangulo.calculararea());
         System.out.println(miCuadrado.calculararea());
 
