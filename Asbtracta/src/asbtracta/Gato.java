@@ -9,13 +9,12 @@ package asbtracta;
  *
  * @author Estudiantes
  */
-public class Asbtracta {
+public class Gato extends Animal {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    @Override
+    String emitirsonido() {
+
+        return "Miiiiaaaaaaau";
     }
-    
+
 }
