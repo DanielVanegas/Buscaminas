@@ -1,10 +1,24 @@
 package aplicacion1;
+import java.util.Scanner;
 
 public class Triangulo extends Figurageometrica {
+    
+    Scanner miEscanner= new Scanner(System.in);
 
     @Override
-    String calculararea() {
-        return "Calculando area Triangulo";
+    int calculararea() {
+        
+        System.out.println("Calculando Area de un triángulo.");
+        int n,m,x;
+        System.out.println("Ingrese base");
+        n= miEscanner.nextInt();
+        
+        System.out.println("Ingrese Altura");
+        m= miEscanner.nextInt();
+        
+        x=n*m/2;
+        return x;
+      
     }
 
     @Override
